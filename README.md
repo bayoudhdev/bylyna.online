@@ -1,4 +1,4 @@
-# Next.js Self Hosting Example
+# Bylyna Self Hosting Example
 
 This repo shows how to deploy a Next.js app and a PostgreSQL database on a Ubuntu Linux server using Docker and Nginx. It showcases using several features of Next.js like caching, ISR, environment variables, and more.
 
@@ -18,9 +18,12 @@ This repo shows how to deploy a Next.js app and a PostgreSQL database on a Ubunt
 
 2. **Download the deployment script**:
 
+  ***Deploy***:
+
    ```bash
    curl -o ~/deploy.sh https://raw.githubusercontent.com/bayoudhdev/bylyna.online/main/deploy.sh
    ```
+  ***Update***:
 
    ```bash
    curl -o ~/update.sh https://raw.githubusercontent.com/bayoudhdev/bylyna.online/main/update.sh

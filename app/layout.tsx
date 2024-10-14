@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import React from "react";
+
+import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "bylyna.online Self Hosted Demo",
+  title: "Bylyna.online Self Hosted Demo",
   description: "This is hosted on Ubuntu Linux with Nginx as a reverse proxy.",
 };
 
@@ -11,14 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+      <html lang="en">
       <head>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-        />
+          <title>Bylyna</title>
       </head>
       <body>{children}</body>
-    </html>
+      </html>
   );
 }
