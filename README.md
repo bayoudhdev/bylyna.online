@@ -27,8 +27,7 @@ This repo shows how to deploy a Next.js app and a PostgreSQL database on a Ubunt
 3. **Run the deployment script**:
 
    ```bash
-   chmod +x ~/deploy.sh
-   ./deploy.sh
+   chmod +x ~/deploy.sh ./deploy.sh
    ```
 
 ## Supported Features
