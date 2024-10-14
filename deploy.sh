@@ -6,8 +6,8 @@ POSTGRES_PASSWORD=$(openssl rand -base64 12)  # Generate a random 12-character p
 POSTGRES_DB="mydatabase"
 SECRET_KEY="my-secret" # for the demo app
 NEXT_PUBLIC_SAFE_KEY="safe-key" # for the demo app
-DOMAIN_NAME="bayoudh.dev"
-EMAIL="bayoudh.mohamed9@gmail.com"
+DOMAIN_NAME="xxx.dev"
+EMAIL="xxx@email.com"
 
 # Script Vars
 REPO_URL="https://github.com/bayoudhdev/next-self-host.git"
