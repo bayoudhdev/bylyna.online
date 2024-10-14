@@ -20,10 +20,10 @@ export default async function Home() {
 
   return (
     <section>
-      <h1>bylyna Self Hosted Demo</h1>
+      <h1>Bylyna Self Hosted Demo</h1>
       <p>
-        This is a demo of a Next.js application hosted on Ubuntu Linux. It also
-        includes a Postgres database and an Nginx proxy.{" "}
+        This is a demo of a Next.js 15 application hosted on Ubuntu Linux. It
+        also includes a Postgres database and an Nginx proxy.{" "}
         <a href="https://github.com/bayoudhdev/bylyna.online">View the code</a>.
       </p>
 

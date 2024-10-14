@@ -19,7 +19,11 @@ This repo shows how to deploy a Next.js app and a PostgreSQL database on a Ubunt
 2. **Download the deployment script**:
 
    ```bash
-   curl -o ~/deploy.sh https://raw.githubusercontent.com/bayoudhdev/next-self-host/main/deploy.sh
+   curl -o ~/deploy.sh https://raw.githubusercontent.com/bayoudhdev/bylyna.online/main/deploy.sh
+   ```
+
+   ```bash
+   curl -o ~/update.sh https://raw.githubusercontent.com/bayoudhdev/bylyna.online/main/update.sh
    ```
 
    You can then modify the email and domain name variables inside of the script to use your own.
