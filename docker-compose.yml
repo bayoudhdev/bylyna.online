@@ -45,6 +45,6 @@ volumes:
   postgres_data:
 
 networks:
-  my_network:
+  bylyna_network:
     name: bylyna_network
     driver: bridge
